@@ -1,6 +1,23 @@
-function Header() {}
+function Header() {
+  return (
+    <header>
+      <a href="#">Home</a> | <a href="#products-index">Product Index</a> | <a href="#products-new">New Product</a>
+    </header>
+  );
+}
 
-function ProductsNew() {}
+function ProductsNew() {
+  return (
+    <div id="products-new">
+      <h1>New Product</h1>
+      <form>
+        <br>
+          Name: <input type="text" />
+        </br>
+      </form>
+    </div>
+  );
+}
 
 function ProductsIndex() {}
 
