@@ -31,7 +31,13 @@ function ProductsNew() {
 
 function ProductsIndex() {}
 
-function Footer() {}
+function Footer() {
+  return (
+    <footer>
+      <p>Copyright 2023</p>
+    </footer>
+  );
+}
 
 function Content() {
   return (
