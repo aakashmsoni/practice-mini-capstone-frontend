@@ -11,9 +11,19 @@ function ProductsNew() {
     <div id="products-new">
       <h1>New Product</h1>
       <form>
-        <br>
+        <div>
           Name: <input type="text" />
-        </br>
+        </div>
+        <div>
+          Description: <input type="text" />
+        </div>
+        <div>
+          Price: <input type="number" />
+        </div>
+        <div>
+          Image URL: <input type="url" />
+        </div>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
